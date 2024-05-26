@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 25px 60px 25px 60px;
+    background-color: white;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #00cc7a;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(139, 132, 132);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00cc7a;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    position: relative;
+    height: 400px;
+}
+
+.text {
+    width: 50%;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#get {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#medical {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(139, 132, 132);
+}
+.doctors {
+    height: 400px;
+}
+
+.green {
+    height: 400px;
+    width: 400px;
+    background-color: #00cc7a;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 55%;
+}
+
+.box {
+    border-radius: 4%;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .09);
+}
+
+.active_client{
+    width: 130px;
+    position: absolute;
+    top: 150px;
+    left: 55%;
+    padding-left: 30px;
+}
+
+.get_details {
+    position: absolute;
+    top: 430px;
+    left: 65%;
+    height: 65px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    gap: 5px;
+}
+
+.tick {
+    height: 25px;
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cont ul {
+    display: block;
+}
+
+#footer {
+    background-color: #00cc7a;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    height: 300px;
+}
+
+.about p {
+    color: white;
+}
+
+.cont .social {
+    
+    padding-left: 3rem;
+}
+.socio {
+    height: 1rem;
+}
+
+.cont ul li {
+    margin-bottom: 8px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.apps {
+    
+}
